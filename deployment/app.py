@@ -6,7 +6,7 @@ import joblib
 # Load the trained model
 model = joblib.load('deployment/tourism_model.pkl')
 
-st.set_page_config(page_title="Tourism Package Prediction", layout="centred")
+st.set_page_config(page_title="Tourism Package Prediction", layout="centered")
 
 # Create a Streamlit web app
 st.title('Tourism Package Prediction')
