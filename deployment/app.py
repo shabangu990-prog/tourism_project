@@ -28,7 +28,7 @@ Passport = st.selectbox('Passport', ['No', 'Yes'])
 OwnCar = st.selectbox('Own Car', ['No', 'Yes'])
 NumberOfChildrenVisiting = st.number_input('Number of Children Visiting', min_value=0, value=0)
 Designation = st.selectbox('Designation', ['Executive', 'Managerial', 'Professional', 'Other'])
-MonthlyIncome = st.number_input('Monthly Income', min_value=0,0 max_value=1000000.0 value=25000.0, step=1000.0)
+MonthlyIncome = st.number_input('Monthly Income', min_value=0.0, max_value=1000000.0 value=25000.0, step=1000.0)
 
 # Create prediction
 if st.button('Predict'):
