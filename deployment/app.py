@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load the trained model
-model = joblib.load('tourism_model.pkl')
 
 # Load the trained model
 model = joblib.load('tourism_model.pkl')
