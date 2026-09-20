@@ -29,7 +29,7 @@ OwnCar = st.selectbox('Own Car', ['No', 'Yes'])
 NumberOfChildrenVisiting = st.number_input('Number of Children Visiting', min_value=0, value=0)
 Designation = st.selectbox('Designation', ['Executive', 'Managerial', 'Professional', 'Other'])
 MonthlyIncome = st.number_input('Monthly Income', min_value=0.0, max_value=1000000.0, value=25000.0, step=1000.0)
-PitchSatisfactionScore = st.number_input('Pitch Satisfaction Score', min_value=1, max_values=5, value=3)
+PitchSatisfactionScore = st.number_input('Pitch Satisfaction Score', min_value=1, max_value=5, value=3)
 # Create prediction
 if st.button('Predict'):
   input_data = pd.DataFrame({
