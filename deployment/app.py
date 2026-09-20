@@ -4,7 +4,7 @@ import joblib
 
 
 # Load the trained model
-model = joblib.load('tourism_model.pkl')
+model = joblib.load('deployment/tourism_model.pkl')
 
 st.set_page_config(page_title="Tourism Package Prediction", page_icon=":airplane:", layout="centred")
 
